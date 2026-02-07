@@ -1,5 +1,8 @@
 # Magnetic-Grapevine-Analysis
 Analysis of magnetic field treatments on biochemical compounds in two grapevine cultivars (Rasha and Sultanin)
+# python, # jupyter-notebook, # data-analysis, # statistics, # matplotlib, # pandas
+
+
 # Abstract
 This study investigates the effects of magnetic field treatments on biochemical compounds in two grapevine cultivars (Vitis vinifera L.). We examined how different magnetization methods and intensities affect carbohydrate, protein, phenolic, anthocyanin, and enzyme (PPO, POD) levels.
 # Experimental Design
