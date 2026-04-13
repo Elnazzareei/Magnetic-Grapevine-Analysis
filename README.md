@@ -1,41 +1,32 @@
-# Magnetic-Grapevine-Analysis
-Analysis of magnetic field treatments on biochemical compounds in two grapevine cultivars (Rasha and Sultanin)
-#python, #jupyter-notebook, #data-analysis, #statistics, #matplotlib, #pandas
+# Objective
+Analyze structured experimental data to evaluate the impact of multiple factors on measured outcomes using statistical modeling techniques.
 
+# Dataset
+-Experimental dataset with 30 observations
+-Multiple variables including treatments, categories, and measured outcomes
+-Designed as a controlled experiment with replicated conditions
 
-# Abstract
-This study investigates the effects of magnetic field treatments on biochemical compounds in two grapevine cultivars (Vitis vinifera L.). We examined how different magnetization methods and intensities affect carbohydrate, protein, phenolic, anthocyanin, and enzyme (PPO, POD) levels.
-# Experimental Design
-Plant Material
-- Cultivars: Rasha (Vitis vinifera cv. Rasha) and Sultanin (Vitis vinifera cv. Sultanin)
-- Growth Stage: 60-day-old potted vines
-- Growth Conditions: Greenhouse
-# Treatments
-Code, Treatment Description, Magnetic Field Intensity, Application Method 
-T1, Control, 0 T, Normal Hogland nutrient solution
-T2, Mag. S 0.1, 0.1 T, Hogland solution magnetized before application 
-T3, Mag. S 0.2, 0.2 T, Hogland solution magnetized before application
-T4, Mag. W+S 0.1, 0.1 T, Water magnetized before mixing with Hogland
-T5, Mag. W+S 0.2, 0.2 T, Water magnetized before mixing with Hogland
-# Experimental Setup
-- Design: Completely Randomized Design (CRD)
-- Replications: 3 pots per treatment × cultivar combination
-- Total Units: 2 cultivars × 5 treatments × 3 replications = 30 experimental units
-# Measured Parameters
-- Primary Metabolites: 
-  - Carbohydrate content (mg/g dry weight)
-  - Total protein (mg/g dry weight)
-- Secondary Metabolites:
-  - Total phenol (mg GAE/g dry weight)
-  - Anthocyanin (mg/g dry weight)
-- Enzyme Activities:
-  - Polyphenol oxidase (PPO, units/g protein)
-  - Peroxidase (POD, units/g protein)
-# Statistical Analysis
-- Two-way ANOVA with interaction (Cultivar × Treatment)
-- Post-hoc Tukey HSD test (α = 0.05)
-- Effect size calculation (Partial η²)
-- Principal Component Analysis (PCA)
-- Multivariate ANOVA (MANOVA)
-# Keywords
-magnetic treatment, grapevine, Vitis vinifera, biochemical compounds, phenolic compounds, enzyme activity, agricultural biotechnology, plant physiology, sustainable agriculture, nutrient solution magnetization
+# Tools & Technologies
+-Python (Pandas, NumPy)
+-Statistical analysis (SciPy, Statsmodels)
+-Visualization (Matplotlib)
+-Python (Modelling)
+
+# Workflow
+-Data cleaning and preprocessing
+-Exploratory data analysis (EDA)
+-Two-way ANOVA to evaluate interaction effects
+-Post-hoc analysis (Tukey HSD)
+-Multivariate analysis (PCA, MANOVA)
+-Effect size calculation (Partial η²)
+-Visualization of statistical results
+
+# Key Results
+-Identified statistically significant interaction effects between variables (p < 0.01)
+-Quantified effect sizes to evaluate practical significance
+-Revealed multivariate patterns using PCA
+
+# Key Insights
+-Interaction effects between variables can significantly influence outcomes
+-Multivariate analysis helps uncover relationships not visible in univariate analysis
+-Effect size metrics provide deeper understanding beyond statistical significance
