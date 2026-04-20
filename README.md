@@ -1,5 +1,5 @@
 # Objective
-Analyze structured experimental data to evaluate the impact of multiple factors on measured outcomes using statistical modeling techniques.
+The objective of this project is to analyze a structured experimental data to evaluate the impact of multiple factors on measured outcomes using statistical modeling techniques.
 
 # Dataset
 -Experimental dataset with 30 observations
